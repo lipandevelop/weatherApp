@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AFEC7971C4FF196000B25F8 /* LHWCity.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFEC7961C4FF196000B25F8 /* LHWCity.m */; };
+		0AFEC79A1C501119000B25F8 /* LHWCityViewControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFEC7991C501119000B25F8 /* LHWCityViewControl.m */; };
+		0AFEC79C1C502749000B25F8 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AFEC79B1C502749000B25F8 /* Images-2.xcassets */; };
+		0AFEC79E1C50275C000B25F8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AFEC79D1C50275C000B25F8 /* Default-568h@2x.png */; };
+		0AFEC7A11C503FE3000B25F8 /* LHWDetailViewControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFEC7A01C503FE2000B25F8 /* LHWDetailViewControl.m */; };
 		60ADD94B1989CFDB0086A6BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60ADD94A1989CFDB0086A6BC /* Foundation.framework */; };
 		60ADD94D1989CFDB0086A6BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60ADD94C1989CFDB0086A6BC /* CoreGraphics.framework */; };
 		60ADD94F1989CFDB0086A6BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60ADD94E1989CFDB0086A6BC /* UIKit.framework */; };
@@ -45,6 +50,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AFEC7951C4FF196000B25F8 /* LHWCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHWCity.h; sourceTree = "<group>"; };
+		0AFEC7961C4FF196000B25F8 /* LHWCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHWCity.m; sourceTree = "<group>"; };
+		0AFEC7981C501119000B25F8 /* LHWCityViewControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHWCityViewControl.h; sourceTree = "<group>"; };
+		0AFEC7991C501119000B25F8 /* LHWCityViewControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHWCityViewControl.m; sourceTree = "<group>"; };
+		0AFEC79B1C502749000B25F8 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
+		0AFEC79D1C50275C000B25F8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0AFEC79F1C503FE2000B25F8 /* LHWDetailViewControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHWDetailViewControl.h; sourceTree = "<group>"; };
+		0AFEC7A01C503FE2000B25F8 /* LHWDetailViewControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHWDetailViewControl.m; sourceTree = "<group>"; };
 		60ADD9471989CFDB0086A6BC /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60ADD94A1989CFDB0086A6BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		60ADD94C1989CFDB0086A6BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -103,6 +116,7 @@
 		60ADD93E1989CFDB0086A6BC = {
 			isa = PBXGroup;
 			children = (
+				0AFEC79D1C50275C000B25F8 /* Default-568h@2x.png */,
 				60ADD9501989CFDB0086A6BC /* Weather */,
 				60ADD9691989CFDB0086A6BC /* WeatherTests */,
 				60ADD9491989CFDB0086A6BC /* Frameworks */,
@@ -133,10 +147,17 @@
 		60ADD9501989CFDB0086A6BC /* Weather */ = {
 			isa = PBXGroup;
 			children = (
+				0AFEC79F1C503FE2000B25F8 /* LHWDetailViewControl.h */,
+				0AFEC7A01C503FE2000B25F8 /* LHWDetailViewControl.m */,
+				0AFEC7981C501119000B25F8 /* LHWCityViewControl.h */,
+				0AFEC7991C501119000B25F8 /* LHWCityViewControl.m */,
 				60ADD9591989CFDB0086A6BC /* LHWAppDelegate.h */,
 				60ADD95A1989CFDB0086A6BC /* LHWAppDelegate.m */,
+				0AFEC7951C4FF196000B25F8 /* LHWCity.h */,
+				0AFEC7961C4FF196000B25F8 /* LHWCity.m */,
 				AF207A4519F472D300FD95BF /* images */,
 				60ADD95C1989CFDB0086A6BC /* Images.xcassets */,
+				0AFEC79B1C502749000B25F8 /* Images-2.xcassets */,
 				60ADD9511989CFDB0086A6BC /* Supporting Files */,
 			);
 			path = Weather;
@@ -236,7 +257,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = LHW;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Lighthouse Labs";
 				TargetAttributes = {
 					60ADD9611989CFDB0086A6BC = {
@@ -269,11 +290,13 @@
 			files = (
 				AF207A5919F472D300FD95BF /* fog.png in Resources */,
 				AF207A5C19F472D300FD95BF /* sleet.png in Resources */,
+				0AFEC79C1C502749000B25F8 /* Images-2.xcassets in Resources */,
 				AF207A5419F472D300FD95BF /* clear-night.png in Resources */,
 				AF207A5E19F472D300FD95BF /* Sunny.png in Resources */,
 				AF207A5819F472D300FD95BF /* degree.png in Resources */,
 				AF207A5619F472D300FD95BF /* cloudy.png in Resources */,
 				AF207A5719F472D300FD95BF /* default.png in Resources */,
+				0AFEC79E1C50275C000B25F8 /* Default-568h@2x.png in Resources */,
 				AF207A5B19F472D300FD95BF /* rain.png in Resources */,
 				AF207A5319F472D300FD95BF /* clear-day.png in Resources */,
 				60ADD9551989CFDB0086A6BC /* InfoPlist.strings in Resources */,
@@ -300,8 +323,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AFEC7971C4FF196000B25F8 /* LHWCity.m in Sources */,
 				60ADD95B1989CFDB0086A6BC /* LHWAppDelegate.m in Sources */,
 				60ADD9571989CFDB0086A6BC /* main.m in Sources */,
+				0AFEC7A11C503FE3000B25F8 /* LHWDetailViewControl.m in Sources */,
+				0AFEC79A1C501119000B25F8 /* LHWCityViewControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +387,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -416,11 +443,10 @@
 		60ADD9741989CFDB0086A6BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Weather/Weather-Prefix.pch";
 				INFOPLIST_FILE = "Weather/Weather-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LighthouseLabs.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -429,11 +455,10 @@
 		60ADD9751989CFDB0086A6BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Weather/Weather-Prefix.pch";
 				INFOPLIST_FILE = "Weather/Weather-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LighthouseLabs.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -455,6 +480,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "WeatherTests/WeatherTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LighthouseLabs.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -473,6 +499,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Weather/Weather-Prefix.pch";
 				INFOPLIST_FILE = "WeatherTests/WeatherTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LighthouseLabs.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
